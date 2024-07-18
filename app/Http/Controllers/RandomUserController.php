@@ -26,7 +26,7 @@ class RandomUserController extends Controller
     public function startBot($chatId){
         Telegram::sendMessage([
             'chat_it'=>$chatId,
-            'text'=>$chatId
+            'text'=>'Botimizga hush kelibsiz'
         ]);
     }
 }
